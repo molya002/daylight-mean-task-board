@@ -1,0 +1,9 @@
+<div class="site-shell">
+  <header class="site-header">
+    <a class="brand" routerLink="/" aria-label="Daylight home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24" focusable="false"><circle cx="12" cy="12" r="4" fill="#e8ad75"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1" fill="none" stroke="#4f9673" stroke-width="1.7" stroke-linecap="round"/></svg></span><span>daylight<span class="brand-dot">.</span></span></a>
+    <nav class="main-nav" aria-label="Main navigation"><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">My tasks</a><a routerLink="/insights" routerLinkActive="active">Insights</a></nav>
+    <div class="header-note"><span class="live-dot"></span> A little progress, every day</div>
+  </header>
+  <main><router-outlet /></main>
+  <footer class="site-footer"><span>Daylight task planner</span><span>Plan gently. Finish proudly.</span></footer>
+</div>
